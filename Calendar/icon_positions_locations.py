@@ -29,12 +29,13 @@ tempplace = (299, 0)
 humplace = (299, 35)
 seperatorplace = (0, 72)
 monthplace = (0, 74)
+currenttime = (0, 101)
 weekplace = (3, 134)
 windiconspace = (79, 0)
 sunriseplace = (214, 0)
 sunsetplace = (214, 35)
 
-e_col = 70
+e_col = 40 #70
 date_col = 0
 
 e_row_1 = 540
@@ -42,15 +43,7 @@ e_row_2 = 565
 e_row_3 = 590
 e_row_4 = 615
 
-event_positions = {
-'e1': (e_col, e_row_1), 'e2': (e_col, e_row_2), 'e3': (e_col, e_row_3),
-'e4': (e_col, e_row_4)
-}
 
-date_positions = {
-'d1': (date_col, e_row_1), 'd2': (date_col, e_row_2), 'd3': (date_col, e_row_3),
-'d4': (date_col, e_row_4)
-}
 
 col1 = 3
 col2 = 57
@@ -60,12 +53,49 @@ col5 = 219
 col6 = 273
 col7 = 327
 
+
+#row2 = 225
+#row3 = 288
+#row4 = 351
+#row5 = 414
+#row6 = 477
+
 row1 = 162
-row2 = 225
-row3 = 288
-row4 = 351
-row5 = 414
-row6 = 477
+row2 = 187
+row3 = 212
+row4 = 237
+row5 = 262
+row6 = 287
+row7 = 312
+row8 = 337
+row9 = 362
+row10 = 387
+row11 = 412
+row12 = 437
+row13 = 462
+row14 = 487
+row15 = 512
+row16 = 537
+row17 = 562
+row18 = 587
+
+erow1 = 162
+erow2 = 187
+erow3 = 212
+erow4 = 237
+erow5 = 262
+erow6 = 287
+erow7 = 312
+
+event_positions = {
+'e1': (e_col, row2), 'e2': (e_col, row4), 'e3': (e_col, row6),
+'e4': (e_col, row8), 'e5': (e_col, row10), 'e6': (e_col, row12), 'e7': (e_col, row14), 'e8': (e_col, row16), 'e9': (e_col, row18)
+}
+
+date_positions = {
+'d1': (date_col, row1), 'd2': (date_col, row3), 'd3': (date_col, row5),
+'d4': (date_col, row7), 'd5': (date_col, row9), 'd6': (date_col, row11), 'd7': (date_col, row13), 'd8': (date_col, row15), 'd9': (date_col, row17)
+}
 
 positions = {
 'a1': (col1, row1), 'a2': (col2, row1), 'a3': (col3, row1), 'a4': (col4, row1),
